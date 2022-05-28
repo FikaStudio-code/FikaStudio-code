@@ -1,6 +1,7 @@
 ### Hi there 👋
 ![Metrics](/github-metrics.svg)
 ![FullYear-Callendar](/metrics.plugin.isocalendar.fullyear.svg)
+![Icons](/metrics.plugin.topics.icons.svg)
 
 <!--
 **FikaStudio-code/FikaStudio-code** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
