@@ -3,7 +3,7 @@
 name: Metrics
 on:
   # Schedule daily updates
-  schedule: [{cron: "50 12 * * *"}]
+  schedule: [{cron: "* * * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
@@ -12,6 +12,6 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: FikaStudio-code/FikaStudio-code@main
+      - uses: FikaStudio-code/metrics@main
         with:
           token: ${{ secrets.TOP_PREVIEW }}
